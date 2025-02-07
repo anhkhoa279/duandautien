@@ -1,0 +1,41 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Playfair Display" !important;
+}
+
+.user-page {
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #2e2929,
+    #594e4b,
+    #85786e,
+    #afa694
+  );
+  height: 100vh;
+
+  .left {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    .user {
+      width: fit-content;
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      .name-user {
+        font-weight: 600;
+        font-size: 30px;
+        color: #603809;
+      }
+    }
+  }
+
+  .right {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+  }
+}

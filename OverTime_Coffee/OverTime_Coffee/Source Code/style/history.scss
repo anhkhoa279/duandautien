@@ -1,0 +1,37 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Playfair Display" !important;
+}
+.history {
+  height: 100vh;
+  background-image: url(../assets/history-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .content {
+    border-radius: 27px;
+    backdrop-filter: blur(30px);
+    padding: 50px;
+    .title {
+      color: white;
+      font-weight: 600;
+      font-size: 40px;
+      text-align: center;
+    }
+    .pag-bg {
+      a {
+        background: transparent !important;
+        color: white;
+      }
+    }
+  }
+}
+
+td,
+th,
+tr {
+  color: white !important;
+  background: transparent !important;
+  text-align: center;
+}

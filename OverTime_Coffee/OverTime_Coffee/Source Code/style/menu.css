@@ -1,0 +1,32 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Playfair Display" !important;
+}
+
+.menu {
+  background-image: linear-gradient(to right top, #502e08, #7a5937, #a58869, #d1ba9e, #ffeed8);
+}
+.menu .title {
+  color: black;
+  font-weight: 600;
+  font-size: 40px;
+}
+.menu .coffee img {
+  width: 100%;
+  object-fit: contain;
+}
+.menu .coffee .bg-coffee {
+  background-color: #fff9f1;
+  border-radius: 5px;
+}
+.menu .coffee .bg-coffee .coffee-name,
+.menu .coffee .bg-coffee .price {
+  color: #603809;
+  font-weight: 600;
+  font-size: 25px;
+}
+.menu .coffee .bg-coffee .detail {
+  color: #603809;
+  font-size: 15px;
+}
